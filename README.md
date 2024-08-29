@@ -1,4 +1,4 @@
-#postgresql
+#PostgreSql
 
 DATABASES = {
     'default': {
