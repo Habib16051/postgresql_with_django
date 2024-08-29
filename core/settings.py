@@ -71,6 +71,7 @@ WSGI_APPLICATION = 'core.wsgi.application'
 
 
 # Database
+# This is the change for making the entrpise level project with postgresql
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
 # DATABASES = {
