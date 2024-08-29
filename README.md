@@ -1,3 +1,5 @@
+# Install postgresql and other things
+
 Create Virtual Environment: python3 -m venv env
 Activate Env: source/env/activate
 Install Django and psycopg2-binary:
@@ -9,7 +11,7 @@ django-admin startappp pdjango
 
 
 #####################################################################################################################################################
-
+# Create Databse , Username, Password
 
 Ctrl + Alt + T, Open Terminal and Type: sudo -u postgres psql
 CREATE DATABASE mydb;
@@ -25,6 +27,8 @@ GRANT ALL PRIVILEGES ON DATABASE mydb TO myuser;
 Finally,  \q to quit the  psql.
 
 Now write the below script into the settings.py:
+
+# Settings.py
 
 ###############################################################
 
